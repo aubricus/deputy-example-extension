@@ -1,5 +1,5 @@
 ## License
-Copyright 2013 aubricus [https://github.com/aubricus/ext](https://github.com/aubricus/ext)
+Copyright 2013 aubricus [https://github.com/aubricus/deputy_lib](https://github.com/aubricus/deputy_lib)
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 

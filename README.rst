@@ -1,5 +1,5 @@
 =====
-ext
+deputy_lib
 =====
 
 Lorem Ipsum
@@ -7,7 +7,7 @@ Lorem Ipsum
 Links
 -----
 
-* GitHub: https://github.com/aubricus/ext
-* ext Readme: https://github.com/aubricus/ext/blob/master/README.md
-* ext License: https://github.com/aubricus/ext/blob/master/LICENSE.md
-* ext Todo: https://github.com/aubricus/ext/blob/master/TODO.md
+* GitHub: https://github.com/aubricus/deputy_lib
+* deputy_lib Readme: https://github.com/aubricus/deputy_lib/blob/master/README.md
+* deputy_lib License: https://github.com/aubricus/deputy_lib/blob/master/LICENSE.md
+* deputy_lib Todo: https://github.com/aubricus/deputy_lib/blob/master/TODO.md

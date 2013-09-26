@@ -11,23 +11,25 @@ if sys.argv[-1] == 'publish':
 os.environ['PYTHONDONTWRITEBYTECODE'] = '1'
 
 packages = [
-    'ext'
+    'deputy_lib',
 ]
 
-package_data = {'ext': ['LICENSE.md', 'README.md']}
+package_data = {'deputy_lib': ['LICENSE.md', 'README.md']}
 
 requires = [
     'setuptools',
-    'docopt==0.6.1'
+    'docopt==0.6.1',
 ]
 
 entry_points = {
-    'console_scripts': ['ext = ext.cli:main']
+    'deputy.filecabinet': [
+        'bang=deputy_lib.bang',
+    ]
 }
 
 setup(
-    url='http://github.com/aubricus/ext',
-    name='ext',
+    url='http://github.com/aubricus/deputy_lib',
+    name='deputy_lib',
     version='0.0.0u',
     description='Lorem ipsum dolor.',
     author='Aubrey Taylor',
@@ -36,10 +38,10 @@ setup(
     package_data=package_data,
     install_requires=requires,
     entry_points=entry_points,
-    package_dir={'ext': 'ext'},
+    package_dir={'deputy_lib': 'deputy_lib'},
     long_description=open('README.rst').read(),
     classifiers=(
-        'Development Status :: 2 - Pre-Alpha',
+        'Development Status :: 1 - Planning',
         'Intended Audience :: Developers',
         'Natural Language :: English',
         'License :: OSI Approved :: Apache Software License',
@@ -47,7 +49,7 @@ setup(
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
     ),
-
+    zip_safe=False,
 )
 
 del os.environ['PYTHONDONTWRITEBYTECODE']
