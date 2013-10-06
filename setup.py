@@ -22,8 +22,10 @@ requires = [
 ]
 
 entry_points = {
-    'deputy.filecabinet': [
+    'deputy.casefiles': [
         'bang=deputy_lib.bang',
+        'bash=deputy_lib.bash',
+        'pop=deputy_lib.pop',
     ]
 }
 
